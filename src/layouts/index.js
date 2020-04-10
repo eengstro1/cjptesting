@@ -22,7 +22,7 @@ const Layout = ({ children, site }) => (
                 🛍 MY CART 🛍
               </div>
               <div className="Header__summary__line">
-                Number of items: <span className="snipcart-total-items"></span>
+                Number of items: <span className="snipcart-items-count"></span>
               </div>
               <div className="Header__summary__line">
                 Total price: <span className="snipcart-total-price"></span>
