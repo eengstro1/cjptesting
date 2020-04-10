@@ -2,9 +2,18 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
+// Define site URL here
+let URL;
+if (process.env.NODE_ENV === 'production') {
+  URL = 'https://gatbsy-ecommerce-demo.netlify.com';
+} else {
+  URL = 'http://localhost:8000';
+}
+
 module.exports = {
   siteMetadata: {
-    siteName: 'Colorado Jack Popcorn',
+    siteName: 'Dog Fur For Sale',
+    siteUrl: URL
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -17,7 +26,9 @@ module.exports = {
       resolve: 'gatsby-plugin-snipcart',
       options: {
         apiKey: process.env.SNIPCART_API_TOKEN,
-        autopop: false
+        autopop: false,
+        js: 'https://cdn.snipcart.com/themes/v3.0.0/default/snipcart.js',
+        styles: 'https://cdn.snipcart.com/themes/v3.0.0/default/snipcart.css'
       }
     },
   ],
