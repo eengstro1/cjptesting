@@ -51,7 +51,7 @@ export default () => (
                       data-item-price={product.price}
                       data-item-image={product.image.url}
                       data-item-name={product.name}
-                      data-item-url={`cjpdeploy.netlify.com/`}
+                      data-item-url={`https://cjpdeploy.netlify.com`}
                     >
                       Add to cart
                     </button>
