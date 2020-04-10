@@ -5,7 +5,7 @@ require("dotenv").config({
 // Define site URL here
 let URL;
 if (process.env.NODE_ENV === 'production') {
-  URL = 'https://gatbsy-ecommerce-demo.netlify.com';
+  URL = 'https://cjpdeploy.netlify.com';
 } else {
   URL = 'http://localhost:8000';
 }
