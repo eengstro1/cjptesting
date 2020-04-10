@@ -12,7 +12,9 @@ export default () => (
             node {
               id
               name
+              description
               price
+              color
               image {
                 url
                 sizes(maxWidth: 300, imgixParams: { fm: "jpg" }) {
@@ -38,24 +40,31 @@ export default () => (
                 <div>
                   <div className="Product__image">
                     <Img sizes={product.image.sizes} />
-                  </div> <div className="Product__details">
+                  </div> 
+                  <div className="Product__details">
                     <div className="Product__name">
                       {product.name}
+                      <div className="Product__description">
+                        {product.description}
+                      </div>
                       <div className="Product__price">
                         ${product.price}
-                      </div>
-                    </div>
-                    <button
-                      className="Product__buy Product snipcart-add-item"
+                      </div>                      
+                    </div>                   
+                  </div>
+                  <button
+                      className="Product__buy buy-button snipcart-add-item"
                       data-item-id={product.id}
                       data-item-price={product.price}
                       data-item-image={product.image.url}
                       data-item-name={product.name}
+                      data-item-custom1-name="Fur color"
+                      data-item-custom1-options={product.color}
+                      data-item-description={product.description}
                       data-item-url={`https://cjpdeploy.netlify.com`}
                     >
                       Add to cart
                     </button>
-                  </div>
                 </div>
               </div>
             ))
