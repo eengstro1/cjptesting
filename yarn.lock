@@ -5658,6 +5658,11 @@ gatsby-plugin-snipcart@^1.1.2:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-snipcart/-/gatsby-plugin-snipcart-1.1.2.tgz#ac2e672ae4fec200ecfce81f267e6e95040131a5"
   integrity sha512-p3qpYVbedxqxWUJ42qhZKF9dbmGwi0mHvUZZ53/FcNoFrp3AeWFah86+YWkgPuERlliQBRUuZoW1gNV13ONnlA==
 
+gatsby-plugin-snipcartv3@^2.1.1:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-snipcartv3/-/gatsby-plugin-snipcartv3-2.3.3.tgz#ac61a94f0460f3df482f0b32345fa4b6d4241435"
+  integrity sha512-Lsy5YkvbH1G9lE3fi8XGJi/8ykFTLMqa515+b2g1PFgOJDN/i1Kp/ljGAypPkpF5ZP4EL1VOJDIStrgiNsuIEg==
+
 gatsby-react-router-scroll@^2.1.17:
   version "2.1.17"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-2.1.17.tgz#1a8cbb8c5ca7dae40d1a650766d21a92a2a8f565"
@@ -8223,12 +8228,12 @@ minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
 minimist@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
-  integrity sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+  integrity sha512-miQKw5Hv4NS1Psg2517mV4e4dYNaO3++hjAvLOAzKqZ61rH8NS1SK+vbfBWZ5PY/Me/bEWhUwqMghEW5Fb9T7Q==
 
 minimist@^1.1.3, minimist@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
-  integrity sha1-o1AIsg9BOD7sH7kU9M1d95omQoQ=
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
 minipass@^2.6.0, minipass@^2.8.6, minipass@^2.9.0:
   version "2.9.0"
